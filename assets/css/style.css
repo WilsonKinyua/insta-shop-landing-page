@@ -345,7 +345,7 @@ h5,
 }
 h6,
 .h6 {
-  font-size: 1rem;
+  font-size: 0.8rem;
 }
 .lead {
   font-size: 1.25rem;
@@ -7776,7 +7776,7 @@ label {
 }
 
 .hero-title {
-  font-size: 2.4rem;
+  font-size: 1.4rem;
 }
 .features {
   padding-top: 4rem;
@@ -7836,5 +7836,21 @@ label {
   .about-us {
     padding-top: 8rem;
   }
+}
+
+.features h6 {
+  font-size: 18px;
+  /* margin-left: 6px; */
+}
+
+.features h5 {
+  font-weight: 900;
+  font-size: 25px;
+}
+
+.features i {
+  color: var(--success);
+  font-size: 25px;
+  margin-bottom: 15px;
 }
 /*# sourceMappingURL=style.css.map */
