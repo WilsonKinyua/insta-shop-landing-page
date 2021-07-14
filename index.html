@@ -18,7 +18,8 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <!-- Animate css -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
-
+    <!-- aos -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   </head>
   <body>
 
@@ -65,8 +66,8 @@
               <a type="button" href="#" class="btn btn-primary">Set Up Your Shop</a>                   
             </div>            
           </div>
-          <div class="col-lg-6 col-xl-5 offset-xl-2 hero-img">
-            <img src="assets/img/iphone1.png" alt="phone one" class="img-fluid pl-lg-5 animate__animated animate__slideInRight" loading="lazy">
+          <div class="col-lg-6 col-xl-5 offset-xl-2 hero-img" data-aos="fade-left">
+            <img src="assets/img/iphone1.png" alt="phone one" class="img-fluid pl-lg-5" loading="lazy">
           </div> 
         </div>       
       </div>
@@ -74,8 +75,8 @@
     <section class="features">
       <div class="container">
         <div class="row">
-          <div class="col-lg-6 col-xl-5">
-            <img src="assets/img/iphone2.png" alt="Insta Shop" class="img-fluid pr-5 animate__animated animate__slideInLeft" loading="lazy" style="max-height: 528px;">
+          <div class="col-lg-6 col-xl-5" data-aos="fade-up-right">
+            <img src="assets/img/iphone2.png" alt="Insta Shop" class="img-fluid pr-5" loading="lazy" style="max-height: 528px;">
           </div>
           <div class="col-lg-6 col-xl-5 offset-xl-1 d-flex flex-column justify-content-center order-first order-lg-last">
             <h6 class="text-success">Features</h6>
@@ -128,6 +129,11 @@
     </footer>
     <script src="assets/js/jquery.slim.min.js"></script>
     <script type="module" src="assets/js/starter.js"></script>
+    <!-- initialize aos -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 
 </html>
